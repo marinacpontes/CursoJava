@@ -54,5 +54,20 @@ S   String mensagem = """
                     Teremos %d aulas para te mostrar o que é preciso para você dar o seu primeiro mergulho na linguagem!
                      """.formatted(nome, aulas);
     System.out.println(mensagem);
+
+->  CASTING:
+
+    converter um tipo de dado em outro. pode ser feita de forma automática pelo compilador (conversão implícita), quando o tipo de dado de destino é compatível com o tipo de dado de origem, ou de forma manual (conversão explícita), utilizando o operador de casting
+
+    Casting implícito: realizado automaticamente pelo compilador quando o tipo de dado de origem é compatível com o tipo de dado de destino
+    int x = 10;
+    double y = x; // casting implícito
+
+    Casting explícito: realizado quando o tipo de dado de origem é incompatível com o tipo de dado de destino. usar o operador de casting para realizar a conversão
+    double x = 10.5;
+    int y = (int) x; // casting explícito
+
+
+
 */
 }
