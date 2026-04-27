@@ -23,6 +23,6 @@ public class Main {
         System.out.println(sinopse);
 
         int classificacao = (int) (media / 2);
-        System.out.printf("Classificação: " + classificacao + " estrelas");
+        System.out.println("Classificação: " + classificacao + " estrelas");
     }
 }
