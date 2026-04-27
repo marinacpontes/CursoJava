@@ -9,6 +9,7 @@ public class Anotacoes {
         System.out.println(a * b); // multiplicação
         System.out.println(a / b); // divisão inteira
         System.out.println(a % b); // resto da divisão
+        System.out.println(a *= b); // fatorial
 
         "==" igual a
         "!=" diferente de
