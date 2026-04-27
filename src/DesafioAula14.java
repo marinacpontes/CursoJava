@@ -1,6 +1,5 @@
 public class DesafioAula14 {
     public static void main(String[] args) {
-
         // 1. Crie um programa que realize a média de duas notas decimais e exiba o resultado
         double nota1 = 9.5; double nota2 = 9.7; double media = (nota1 + nota2) / 2;
         System.out.printf("1. A média é: %.1f%n", media);

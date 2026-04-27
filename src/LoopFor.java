@@ -1,7 +1,6 @@
 import java.util.Scanner;
-
-public class Loop {
-    static void main(String[] args) {
+public class LoopFor {
+    public static void main(String[] args) {
         Scanner leitura = new Scanner(System.in);
         double mediaAvaliacao = 0;
         double nota = 0;
@@ -10,7 +9,6 @@ public class Loop {
             System.out.println("Diga sua avaliação para o filme");
             nota = leitura.nextDouble();
             mediaAvaliacao += nota;
-        }
-        System.out.printf("Média de avaliações: %.2f%n", mediaAvaliacao / 3);
+        } System.out.printf("Média de avaliações: %.1f%n", mediaAvaliacao / 3);
     }
 }
